@@ -1,6 +1,6 @@
 # Stroom- en gasprijzen in Nederland
 
-![Laatste update](https://img.shields.io/badge/laatste%20update-2023--04--19%2010%3A51%20CET-brightgreen)
+![Laatste update](https://img.shields.io/badge/laatste%20update-2023--04--19%2010%3A54%20CET-brightgreen)
 
 <a href="https://www.buymeacoffee.com/Lars-" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" height="60" style="height: 60px !important;width: 217px !important;" ></a>
 
@@ -74,7 +74,7 @@ Door deze repository is het mogelijk om de actuele prijzen in scripts te gebruik
 
 ```php
 <?php
-$price = (float)file_get_contents('https://raw.githubusercontent.com/LJPc-solutions/Stroomprijzen-NL/master/prijzen-elektriciteit/anwb-energie-nu.txt');
+$price = (float)file_get_contents('https://energie.ljpc.nl/stroom/anwb-energie-nu.txt');
 
 ```
 
@@ -82,7 +82,7 @@ $price = (float)file_get_contents('https://raw.githubusercontent.com/LJPc-soluti
 
 ```php
 <?php
-$prices = json_decode(file_get_contents('https://raw.githubusercontent.com/LJPc-solutions/Stroomprijzen-NL/master/prijzen-elektriciteit/all-in-power-vandaag.json'),true);
+$prices = json_decode(file_get_contents('https://energie.ljpc.nl/stroom/all-in-power-vandaag.json'),true);
 foreach ($prices as $price) {
     $dateTime = new \DateTimeImmutable($price['datetime']);
     $price = $price['price'];
