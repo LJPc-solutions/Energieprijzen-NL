@@ -24,7 +24,6 @@ Alle prijzen zijn inclusief de inkoopkosten van de energieleverancier.
 
  Bedrijf | Prijs per kWh 
 ---------|---------------
-
 Beursprijs | € 0,101660
 All in power | € 0,305707
 ANWB Energie | € 0,296637
@@ -46,7 +45,6 @@ Zonneplan | € 0,278456
 
  Bedrijf | Prijs per m³ 
 ---------|--------------
-
 Beursprijs EGSI | € 0,415524
 Beursprijs EOD | € 0,418000
 All in power | € 1,186192
