@@ -1,6 +1,6 @@
 # Stroom- en gasprijzen in Nederland
 
-![Laatste update](https://img.shields.io/badge/laatste%20update-2023--04--19%2013%3A00%20CET-brightgreen)
+![Laatste update](https://img.shields.io/badge/laatste%20update-2023--04--19%2014%3A00%20CET-brightgreen)
 
 <a href="https://www.buymeacoffee.com/Lars-" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" height="60" style="height: 60px !important;width: 217px !important;" ></a>
 
@@ -31,7 +31,7 @@ All in power | € -0,059302
 ANWB Energie | € -0,068372
 EasyEnergy | € -0,058692
 Energie VanOns | € -0,068372
-EnergieZero | € -0,056272
+EnergieZero | € -0,068372
 Frank Energie | € -0,064152
 Groenestroom Lokaal | € -0,068372
 Mijndomein Energie | € -0,068372
