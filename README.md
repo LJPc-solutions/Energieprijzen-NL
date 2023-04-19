@@ -1,6 +1,6 @@
 # Stroom- en gasprijzen in Nederland
 
-![Laatste update](https://img.shields.io/badge/laatste%20update-2023--04--19%2009%3A43%20CET-brightgreen)
+![Laatste update](https://img.shields.io/badge/laatste%20update-2023--04--19%2009%3A51%20CET-brightgreen)
 
 <a href="https://www.buymeacoffee.com/Lars-" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" height="60" style="height: 60px !important;width: 217px !important;" ></a>
 
@@ -13,54 +13,85 @@ everyone will understand how it works.
 
 ## Doel
 
-Het aanbieden van prijsdata van bekende energieleveranciers in Nederland. Deze tool haalt elk uur de actuele energietarieven op van verschillende energieleveranciers die dynamische prijzen aanbieden. Door gebruik te maken van deze tool krijg je een overzicht van de huidige tarieven en kun je beter inspelen op prijsschommelingen.
+Het aanbieden van prijsdata van bekende energieleveranciers in Nederland. Deze tool haalt elk uur de actuele energietarieven op van verschillende energieleveranciers die dynamische prijzen aanbieden. Door gebruik te maken van deze tool
+krijg je een overzicht van de huidige tarieven en kun je beter inspelen op prijsschommelingen.
 
 ## Huidige prijzen
+
 Alle prijzen zijn inclusief de inkoopkosten van de energieleverancier.
 
 ### Stroom
-Bedrijf | Prijs per kWh
-------- | -------------
-Beursprijs | €0,101660
-All in power | €0,305707
-ANWB Energie | €0,296637
-EasyEnergy | €0,306317
-Energie VanOns | €0,296637
-EnergieZero | €0,294628
-Frank Energie | €0,300857
-Groenestroom Lokaal | €0,296637
-Mijndomein Energie | €0,296637
-NextEnergy | €0,297547
-Tibber | €0,297237
-Vandebron | €0,297334
-Vrij op naam | €0,295422
-ZonderGas | €0,296637
-Zonneplan | €0,278456
+
+ Bedrijf | Prijs per kWh 
+---------|---------------
+
+Beursprijs | € 0,101660
+All in power | € 0,305707
+ANWB Energie | € 0,296637
+EasyEnergy | € 0,306317
+Energie VanOns | € 0,296637
+EnergieZero | € 0,294628
+Frank Energie | € 0,300857
+Groenestroom Lokaal | € 0,296637
+Mijndomein Energie | € 0,296637
+NextEnergy | € 0,297547
+Tibber | € 0,297237
+Vandebron | € 0,297334
+Vrij op naam | € 0,295422
+ZonderGas | € 0,296637
+Zonneplan | € 0,278456
 
 
 ### Gas
-Bedrijf | Prijs per m³
-------- | ------------
-Beursprijs EGSI | €0,415524
-Beursprijs EOD | €0,418000
-All in power | €1,186192
-ANWB Energie | €1,178199
-EasyEnergy | €1,224332
-Energie VanOns | €1,178199
-EnergieZero | €1,178199
-Frank Energie | €1,178298
-Groenestroom Lokaal | €1,178199
-Mijndomein Energie | €1,178199
-NextEnergy | €1,223879
-Vandebron | €1,202061
-Vrij op naam | €1,175302
-ZonderGas | €1,178199
-Zonneplan | €1,145442
 
+ Bedrijf | Prijs per m³ 
+---------|--------------
+
+Beursprijs EGSI | € 0,415524
+Beursprijs EOD | € 0,418000
+All in power | € 1,186192
+ANWB Energie | € 1,178199
+EasyEnergy | € 1,224332
+Energie VanOns | € 1,178199
+EnergieZero | € 1,178199
+Frank Energie | € 1,178298
+Groenestroom Lokaal | € 1,178199
+Mijndomein Energie | € 1,178199
+NextEnergy | € 1,223879
+Vandebron | € 1,202061
+Vrij op naam | € 1,175302
+ZonderGas | € 1,178199
+Zonneplan | € 1,145442
+
+
+## Automatisering
+
+Door deze repository is het mogelijk om de actuele prijzen in scripts te gebruiken.
+
+**Voorbeeld 1: huidige stroomprijs van ANWB Energie**
+
+```php
+<?php
+$price = (float)file_get_contents('https://raw.githubusercontent.com/LJPc-solutions/Stroomprijzen-NL/master/prijzen-elektriciteit/anwb-energie-nu.txt');
+
+```
+
+**Voorbeeld 2: alle stroomprijzen van ANWB Energie vandaag**
+
+```php
+<?php
+$prices = json_decode(file_get_contents('https://raw.githubusercontent.com/LJPc-solutions/Stroomprijzen-NL/master/prijzen-elektriciteit/all-in-power-vandaag.json'),true);
+foreach ($prices as $price) {
+    $dateTime = new \DateTimeImmutable($price['datetime']);
+    $price = $price['price'];
+    // ...
+}
+```
 
 ## Actualiteit en betrouwbaarheid
 
-Houd er rekening mee dat de informatie in deze tool alleen ter referentie wordt verstrekt. We doen ons best om de gegevens zo nauwkeurig en actueel mogelijk te houden, maar we kunnen de volledige nauwkeurigheid van de gegevens niet garanderen. Gebruik deze informatie op eigen risico.
+Houd er rekening mee dat de informatie in deze tool alleen ter referentie wordt verstrekt. We doen ons best om de gegevens zo nauwkeurig en actueel mogelijk te houden, maar we kunnen de volledige nauwkeurigheid van de gegevens niet
+garanderen. Gebruik deze informatie op eigen risico.
 
 ## Maatwerk
 
