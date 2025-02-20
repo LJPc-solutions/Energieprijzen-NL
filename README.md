@@ -1,6 +1,6 @@
 # Stroom- en gasprijzen in Nederland
 
-![Laatste update](https://img.shields.io/badge/laatste%20update-2025--02--20%2017%3A01%20CET-brightgreen)
+![Laatste update](https://img.shields.io/badge/laatste%20update-2025--02--20%2018%3A00%20CET-brightgreen)
 
 <a href="https://www.buymeacoffee.com/Lars-" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" height="60" style="height: 60px !important;width: 217px !important;" ></a>
 
@@ -26,21 +26,21 @@ Prijzen worden automatisch ieder uur geüpdatet.
 
  Bedrijf | Prijs per kWh 
 ---------|---------------
-Beursprijs | € 0,110090
-All in power | € 0,110090
-ANWB Energie | € 0,289949
-EasyEnergy | € 0,277849
-Energie VanOns | € 0,289949
-EnergieZero | € 0,289949
-Frank Energie | € 0,274269
-Groenestroom Lokaal | € 0,289949
-Mijndomein Energie | € 0,289949
-NextEnergy | € 0,277969
-Tibber | € 0,280874
-Vandebron | € 0,277949
-Vrij op naam | € 0,276034
-ZonderGas | € 0,289949
-Zonneplan | € 0,276069
+Beursprijs | € 0,116050
+All in power | € 0,116050
+ANWB Energie | € 0,297161
+EasyEnergy | € 0,285061
+Energie VanOns | € 0,297161
+EnergieZero | € 0,297161
+Frank Energie | € 0,281481
+Groenestroom Lokaal | € 0,297161
+Mijndomein Energie | € 0,297161
+NextEnergy | € 0,285181
+Tibber | € 0,288086
+Vandebron | € 0,285161
+Vrij op naam | € 0,283246
+ZonderGas | € 0,297161
+Zonneplan | € 0,283281
 
 
 ### Gas
