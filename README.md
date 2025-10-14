@@ -1,6 +1,6 @@
 # Stroom- en gasprijzen in Nederland
 
-![Laatste update](https://img.shields.io/badge/laatste%20update-2025--10--14%2006%3A00%20CET-brightgreen)
+![Laatste update](https://img.shields.io/badge/laatste%20update-2025--10--14%2007%3A00%20CET-brightgreen)
 
 <a href="https://www.buymeacoffee.com/Lars-" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" height="60" style="height: 60px !important;width: 217px !important;" ></a>
 
@@ -26,21 +26,21 @@ Prijzen worden automatisch ieder uur geüpdatet.
 
  Bedrijf | Prijs per kWh 
 ---------|---------------
-Beursprijs | € 0,114172
-All in power | € 0,114172
-ANWB Energie | € 0,281009
-EasyEnergy | € 0,282789
-Energie VanOns | € 0,290012
-EnergieZero | € 0,294889
-Frank Energie | € 0,279209
-Groenestroom Lokaal | € 0,294889
-Mijndomein Energie | € 0,309409
-NextEnergy | € 0,282909
-Tibber | € 0,285814
-Vandebron | € 0,286719
-Vrij op naam | € 0,280974
-ZonderGas | € 0,280974
-Zonneplan | € 0,281009
+Beursprijs | € 0,153330
+All in power | € 0,153330
+ANWB Energie | € 0,328389
+EasyEnergy | € 0,330169
+Energie VanOns | € 0,337393
+EnergieZero | € 0,342269
+Frank Energie | € 0,326589
+Groenestroom Lokaal | € 0,342269
+Mijndomein Energie | € 0,356789
+NextEnergy | € 0,330289
+Tibber | € 0,333194
+Vandebron | € 0,334099
+Vrij op naam | € 0,328354
+ZonderGas | € 0,328354
+Zonneplan | € 0,328389
 
 
 ### Gas
@@ -49,21 +49,21 @@ Prijzen worden automatisch iedere dag rond 07.00 uur geüpdatet.
 
  Bedrijf | Prijs per m³ 
 ---------|--------------
-Beursprijs EGSI | € 0,312388
-Beursprijs EOD | € 0,317600
-All in power | € 0,317600
-ANWB Energie | € 1,157459
-EasyEnergy | € 1,186409
-Energie VanOns | € 1,160444
-EnergieZero | € 1,190360
-Frank Energie | € 1,163766
-Groenestroom Lokaal | € 1,181149
-Mijndomein Energie | € 1,157459
-NextEnergy | € 1,157459
-Vandebron | € 1,137389
-Vrij op naam | € 1,157459
-ZonderGas | € 1,157459
-Zonneplan | € 1,157559
+Beursprijs EGSI | € 0,313052
+Beursprijs EOD | € 0,313790
+All in power | € 0,313790
+ANWB Energie | € 1,158263
+EasyEnergy | € 0,800540
+Energie VanOns | € 1,161248
+EnergieZero | € 1,178260
+Frank Energie | € 1,159156
+Groenestroom Lokaal | € 1,181953
+Mijndomein Energie | € 1,158263
+NextEnergy | € 1,158263
+Vandebron | € 1,138193
+Vrij op naam | € 1,158263
+ZonderGas | € 1,158263
+Zonneplan | € 1,158363
 
 
 ## Automatisering
